@@ -1,0 +1,145 @@
+{
+  "header": {
+    "phone": "+352 12 34 56",
+    "cta": "Termin vereinbaren"
+  },
+  "hero": {
+    "headline": "Moderne, sanfte Zahnmedizin in Luxemburg.",
+    "subheadline": "Erleben Sie stressfreie Zahnpflege. Rufen Sie uns an oder fordern Sie einen Ruckruf an, um Ihren Besuch zu planen.",
+    "callNow": "Jetzt anrufen: +352 12 34 56",
+    "callback": "Ruckruf anfordern"
+  },
+  "socialProof": {
+    "text": "Uber 2.000 zufriedene Patienten in Luxemburg vertrauen uns."
+  },
+  "features": {
+    "title": "Warum uns wahlen",
+    "items": [
+      {
+        "title": "Schmerzfrei und sanft",
+        "description": "Wir verwenden moderne Techniken, damit Ihr Besuch absolut komfortabel ist."
+      },
+      {
+        "title": "Umfassende Versorgung",
+        "description": "Von Routinereinigungen bis zu kosmetischen Eingriffen, alles unter einem Dach."
+      },
+      {
+        "title": "Einfache Terminplanung",
+        "description": "Rufen Sie unser freundliches Empfangsteam an, um einen passenden Termin zu finden."
+      }
+    ]
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "items": [
+      {
+        "title": "Allgemeine Zahnmedizin",
+        "description": "Routineuntersuchungen, Reinigungen und Vorsorge fur Ihre Mundgesundheit."
+      },
+      {
+        "title": "Kosmetische Zahnmedizin",
+        "description": "Zahnaufhellung, Veneers und asthetische Behandlungen fur ein perfektes Lacheln."
+      },
+      {
+        "title": "Implantate und Kronen",
+        "description": "Haltbare, naturlich aussehende Restaurationen zum Ersatz fehlender oder beschadigter Zahne."
+      },
+      {
+        "title": "Notfallversorgung",
+        "description": "Dringende Termine bei starken Zahnschmerzen und Notfallen verfugbar."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Was unsere Patienten sagen",
+    "items": [
+      {
+        "quote": "Fruher hatte ich Angst vor dem Zahnarzt, aber das Team hier ist unglaublich sanft. Die telefonische Terminvereinbarung war schnell und einfach.",
+        "name": "Marie T."
+      },
+      {
+        "quote": "Schnell, professionell und schmerzlos. Sie haben alles klar erklart und mein Lacheln wieder perfekt gemacht.",
+        "name": "Thomas L."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Patienten-FAQ",
+    "items": [
+      {
+        "question": "Wie vereinbare ich einen Termin?",
+        "answer": "Rufen Sie uns einfach wahrend unserer Geschaftszeiten unter +352 12 34 56 an oder fullen Sie das Formular \"Termin vereinbaren\" aus und unser Empfangsteam wird Sie zuruckrufen."
+      },
+      {
+        "question": "Akzeptieren Sie CNS-Deckung?",
+        "answer": "Ja, wir arbeiten im Rahmen des luxemburgischen CNS-Systems und stellen detaillierte Rechnungen fur Ihre Krankenversicherungserstattungen aus."
+      },
+      {
+        "question": "Nehmen Sie Notfalltermine an?",
+        "answer": "Ja, bitte rufen Sie uns sofort an, wenn Sie unter starken Schmerzen oder einem zahnmedizinischen Notfall leiden."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "headline": "Bereit fur ein gesunderes, strahlenderes Lacheln?",
+    "cta": "Jetzt anrufen: +352 12 34 56"
+  },
+  "footer": {
+    "tagline": "Herausragende Zahnpflege fur die luxemburgische Gemeinschaft.",
+    "contact": "Kontakt",
+    "callLabel": "Tel.:",
+    "emailLabel": "E-Mail:",
+    "addressLabel": "Adresse:",
+    "address": "12 Rue de la Sante, L-1234 Luxemburg",
+    "hoursTitle": "Offnungszeiten",
+    "hours": "Mo-Fr: 8:00 - 18:00 Uhr",
+    "copyright": "2026 LuxSmile Dental. Alle Rechte vorbehalten."
+  },
+  "form": {
+    "title": "Terminanfrage",
+    "description": "Fullen Sie das Formular aus und wir kontaktieren Sie innerhalb von 3 Werktagen.",
+    "reason": "Grund",
+    "reasonPlaceholder": "Grund auswahlen",
+    "reasons": {
+      "checkup": "Allgemeine Untersuchung",
+      "cleaning": "Reinigung",
+      "cosmetic": "Kosmetisch",
+      "emergency": "Notfall",
+      "other": "Andere"
+    },
+    "lastName": "Nachname",
+    "lastNamePlaceholder": "Ihr Nachname",
+    "firstName": "Vorname",
+    "firstNamePlaceholder": "Ihr Vorname",
+    "phone": "Telefon",
+    "phonePlaceholder": "+352 ...",
+    "email": "E-Mail",
+    "emailPlaceholder": "ihre@email.lu",
+    "date": "Gewunschtes Datum",
+    "datePlaceholder": "Datum wahlen",
+    "time": "Gewunschte Uhrzeit",
+    "timePlaceholder": "Uhrzeit wahlen",
+    "message": "Nachricht (optional)",
+    "messagePlaceholder": "Zusatzliche Informationen...",
+    "submit": "Anfrage senden",
+    "submitting": "Wird gesendet...",
+    "success": "Ihre Anfrage wurde gesendet. Wir kontaktieren Sie innerhalb von 3 Werktagen per Telefon oder E-Mail.",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+    "validation": {
+      "reasonRequired": "Bitte wahlen Sie einen Grund.",
+      "lastNameMin": "Nachname muss mindestens 2 Zeichen lang sein.",
+      "firstNameMin": "Vorname muss mindestens 2 Zeichen lang sein.",
+      "phoneRequired": "Telefonnummer ist erforderlich.",
+      "emailInvalid": "Bitte geben Sie eine gultige E-Mail-Adresse ein.",
+      "dateRequired": "Bitte wahlen Sie ein Datum.",
+      "dateFuture": "Das Datum muss in der Zukunft liegen.",
+      "timeRequired": "Bitte wahlen Sie eine Uhrzeit.",
+      "messageMax": "Die Nachricht darf 500 Zeichen nicht uberschreiten."
+    }
+  },
+  "languageSwitcher": {
+    "fr": "Francais",
+    "en": "English",
+    "de": "Deutsch"
+  }
+}

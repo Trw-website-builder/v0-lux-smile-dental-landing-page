@@ -1,0 +1,145 @@
+{
+  "header": {
+    "phone": "+352 12 34 56",
+    "cta": "Prendre rendez-vous"
+  },
+  "hero": {
+    "headline": "Dentisterie moderne et douce au Luxembourg.",
+    "subheadline": "Profitez de soins dentaires sans stress. Appelez-nous ou demandez un rappel pour planifier votre visite.",
+    "callNow": "Appelez : +352 12 34 56",
+    "callback": "Demander un rappel"
+  },
+  "socialProof": {
+    "text": "Plus de 2 000 patients satisfaits au Luxembourg nous font confiance."
+  },
+  "features": {
+    "title": "Pourquoi nous choisir",
+    "items": [
+      {
+        "title": "Sans douleur et en douceur",
+        "description": "Nous utilisons des techniques modernes pour que votre visite soit parfaitement confortable."
+      },
+      {
+        "title": "Soins complets",
+        "description": "Du nettoyage de routine aux soins cosmetiques, tout sous un meme toit."
+      },
+      {
+        "title": "Prise de rendez-vous facile",
+        "description": "Appelez notre equipe d'accueil pour trouver un horaire qui vous convient parfaitement."
+      }
+    ]
+  },
+  "services": {
+    "title": "Nos services",
+    "items": [
+      {
+        "title": "Dentisterie generale",
+        "description": "Examens de routine, nettoyages et soins preventifs pour maintenir votre sante bucco-dentaire."
+      },
+      {
+        "title": "Dentisterie cosmetique",
+        "description": "Blanchiment des dents, facettes et traitements esthetiques pour un sourire parfait."
+      },
+      {
+        "title": "Implants et couronnes",
+        "description": "Restaurations durables et d'aspect naturel pour remplacer les dents manquantes ou endommagees."
+      },
+      {
+        "title": "Soins d'urgence",
+        "description": "Rendez-vous urgents disponibles pour les douleurs dentaires severes et les situations d'urgence."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Ce que disent nos patients",
+    "items": [
+      {
+        "quote": "J'avais l'habitude de redouter le dentiste, mais l'equipe ici est incroyablement douce. La prise de rendez-vous par telephone a ete rapide et facile.",
+        "name": "Marie T."
+      },
+      {
+        "quote": "Rapide, professionnel et indolore. Ils ont tout explique clairement et mon sourire est redevenu parfait.",
+        "name": "Thomas L."
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ Patients",
+    "items": [
+      {
+        "question": "Comment prendre rendez-vous ?",
+        "answer": "Appelez-nous simplement au +352 12 34 56 pendant nos heures d'ouverture, ou remplissez le formulaire \"Prendre rendez-vous\" et notre equipe vous rappellera."
+      },
+      {
+        "question": "Acceptez-vous la couverture CNS ?",
+        "answer": "Oui, nous travaillons dans le cadre du systeme CNS luxembourgeois et fournissons des factures detaillees pour vos remboursements d'assurance maladie."
+      },
+      {
+        "question": "Prenez-vous les rendez-vous d'urgence ?",
+        "answer": "Oui, veuillez nous appeler immediatement si vous souffrez de douleurs severes ou d'une urgence dentaire."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "headline": "Pret pour un sourire plus sain et plus eclatant ?",
+    "cta": "Appelez : +352 12 34 56"
+  },
+  "footer": {
+    "tagline": "Des soins dentaires exceptionnels pour la communaute luxembourgeoise.",
+    "contact": "Contact",
+    "callLabel": "Tel :",
+    "emailLabel": "Email :",
+    "addressLabel": "Adresse :",
+    "address": "12 Rue de la Sante, L-1234 Luxembourg",
+    "hoursTitle": "Horaires",
+    "hours": "Lun-Ven : 8h00 - 18h00",
+    "copyright": "2026 LuxSmile Dental. Tous droits reserves."
+  },
+  "form": {
+    "title": "Demande de rendez-vous",
+    "description": "Remplissez le formulaire ci-dessous et nous vous contacterons dans les 3 jours ouvrables.",
+    "reason": "Motif",
+    "reasonPlaceholder": "Selectionnez un motif",
+    "reasons": {
+      "checkup": "Bilan general",
+      "cleaning": "Nettoyage",
+      "cosmetic": "Cosmetique",
+      "emergency": "Urgence",
+      "other": "Autre"
+    },
+    "lastName": "Nom",
+    "lastNamePlaceholder": "Votre nom",
+    "firstName": "Prenom",
+    "firstNamePlaceholder": "Votre prenom",
+    "phone": "Telephone",
+    "phonePlaceholder": "+352 ...",
+    "email": "Email",
+    "emailPlaceholder": "votre@email.lu",
+    "date": "Date souhaitee",
+    "datePlaceholder": "Choisir une date",
+    "time": "Heure souhaitee",
+    "timePlaceholder": "Selectionnez une heure",
+    "message": "Message (facultatif)",
+    "messagePlaceholder": "Informations supplementaires...",
+    "submit": "Envoyer la demande",
+    "submitting": "Envoi en cours...",
+    "success": "Votre demande a ete envoyee. Nous vous contacterons par telephone ou par email dans les 3 jours ouvrables.",
+    "error": "Une erreur est survenue. Veuillez reessayer.",
+    "validation": {
+      "reasonRequired": "Veuillez selectionner un motif.",
+      "lastNameMin": "Le nom doit comporter au moins 2 caracteres.",
+      "firstNameMin": "Le prenom doit comporter au moins 2 caracteres.",
+      "phoneRequired": "Le numero de telephone est requis.",
+      "emailInvalid": "Veuillez saisir une adresse email valide.",
+      "dateRequired": "Veuillez choisir une date.",
+      "dateFuture": "La date doit etre dans le futur.",
+      "timeRequired": "Veuillez selectionner une heure.",
+      "messageMax": "Le message ne peut pas depasser 500 caracteres."
+    }
+  },
+  "languageSwitcher": {
+    "fr": "Francais",
+    "en": "English",
+    "de": "Deutsch"
+  }
+}
