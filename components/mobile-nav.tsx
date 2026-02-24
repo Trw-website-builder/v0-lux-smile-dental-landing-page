@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Menu, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -13,9 +14,17 @@ import {
 import { LanguageSwitcher } from "@/components/language-switcher";
 import type { Locale } from "@/lib/i18n";
 
+const NAV_ITEMS = [
+  { key: "services" as const, hash: "#services" },
+  { key: "reviews" as const, hash: "#reviews" },
+  { key: "appointment" as const, hash: "#request-appointment" },
+  { key: "faq" as const, hash: "#faq" },
+];
+
 interface MobileNavProps {
   dict: {
     header: { phone: string; cta: string };
+    nav: { services: string; reviews: string; appointment: string; faq: string };
     languageSwitcher: Record<string, string>;
   };
   lang: Locale;
@@ -23,6 +32,12 @@ interface MobileNavProps {
 
 export function MobileNav({ dict, lang }: MobileNavProps) {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === `/${lang}` || pathname === `/${lang}/`;
+
+  function navHref(hash: string) {
+    return isHome ? hash : `/${lang}/${hash}`;
+  }
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -39,6 +54,19 @@ export function MobileNav({ dict, lang }: MobileNavProps) {
           <SheetTitle className="text-foreground">LuxSmile Dental</SheetTitle>
         </SheetHeader>
         <nav className="flex flex-col gap-4 p-4">
+          {NAV_ITEMS.map((item) => (
+            <a
+              key={item.key}
+              href={navHref(item.hash)}
+              onClick={() => setOpen(false)}
+              className="text-sm font-medium text-foreground transition-colors hover:text-primary"
+            >
+              {dict.nav[item.key]}
+            </a>
+          ))}
+
+          <hr className="border-border" />
+
           <a
             href="tel:+35212345"
             className="flex items-center gap-2 text-sm font-medium text-foreground transition-colors hover:text-primary"

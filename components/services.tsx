@@ -13,7 +13,7 @@ interface ServicesProps {
 
 export function Services({ dict }: ServicesProps) {
   return (
-    <section className="bg-muted py-16 lg:py-24">
+    <section id="services" className="scroll-mt-20 bg-muted py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <h2 className="mb-12 text-center text-3xl font-bold text-foreground md:text-4xl">
           {dict.services.title}

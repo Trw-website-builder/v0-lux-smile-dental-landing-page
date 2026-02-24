@@ -3,6 +3,12 @@
     "phone": "+352 12 34 56",
     "cta": "Request Appointment"
   },
+  "nav": {
+    "services": "Services",
+    "reviews": "Reviews",
+    "appointment": "Request an Appointment",
+    "faq": "FAQ"
+  },
   "hero": {
     "headline": "Modern, Gentle Dentistry in Luxembourg.",
     "subheadline": "Experience stress-free dental care. Call us today or request a callback to schedule your visit.",

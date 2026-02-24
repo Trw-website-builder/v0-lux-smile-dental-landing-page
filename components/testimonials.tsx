@@ -11,7 +11,7 @@ interface TestimonialsProps {
 
 export function Testimonials({ dict }: TestimonialsProps) {
   return (
-    <section className="bg-background py-16 lg:py-24">
+    <section id="reviews" className="scroll-mt-20 bg-background py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <h2 className="mb-12 text-center text-3xl font-bold text-foreground md:text-4xl">
           {dict.testimonials.title}

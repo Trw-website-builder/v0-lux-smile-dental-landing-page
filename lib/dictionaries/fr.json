@@ -3,6 +3,12 @@
     "phone": "+352 12 34 56",
     "cta": "Prendre rendez-vous"
   },
+  "nav": {
+    "services": "Services",
+    "reviews": "Avis",
+    "appointment": "Prendre rendez-vous",
+    "faq": "FAQ"
+  },
   "hero": {
     "headline": "Dentisterie moderne et douce au Luxembourg.",
     "subheadline": "Profitez de soins dentaires sans stress. Appelez-nous ou demandez un rappel pour planifier votre visite.",

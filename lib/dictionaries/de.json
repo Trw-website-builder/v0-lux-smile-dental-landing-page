@@ -3,6 +3,12 @@
     "phone": "+352 12 34 56",
     "cta": "Termin vereinbaren"
   },
+  "nav": {
+    "services": "Leistungen",
+    "reviews": "Bewertungen",
+    "appointment": "Termin vereinbaren",
+    "faq": "FAQ"
+  },
   "hero": {
     "headline": "Moderne, sanfte Zahnmedizin in Luxemburg.",
     "subheadline": "Erleben Sie stressfreie Zahnpflege. Rufen Sie uns an oder fordern Sie einen Ruckruf an, um Ihren Besuch zu planen.",

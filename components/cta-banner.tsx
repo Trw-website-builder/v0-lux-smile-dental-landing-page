@@ -18,7 +18,7 @@ interface CtaBannerProps {
 
 export function CtaBanner({ dict, lang }: CtaBannerProps) {
   return (
-    <section className="bg-accent py-16 lg:py-20">
+    <section id="request-appointment" className="scroll-mt-20 bg-accent py-16 lg:py-20">
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 px-4 text-center lg:px-8">
         <h2 className="max-w-2xl text-balance text-3xl font-bold text-accent-foreground md:text-4xl">
           {dict.ctaBanner.headline}
