@@ -137,6 +137,13 @@
       "messageMax": "Le message ne peut pas depasser 500 caracteres."
     }
   },
+  "contactPage": {
+    "heroTitle": "Contactez-nous",
+    "heroSubtitle": "Remplissez le formulaire ci-dessous pour demander un rendez-vous. Nous vous contacterons dans les 3 jours ouvrables.",
+    "ctaTitle": "Vous preferez nous appeler ?",
+    "ctaDescription": "Notre equipe d'accueil est disponible du lundi au vendredi, de 8h00 a 18h00.",
+    "ctaButton": "Appelez : +352 12 34 56"
+  },
   "languageSwitcher": {
     "fr": "Francais",
     "en": "English",

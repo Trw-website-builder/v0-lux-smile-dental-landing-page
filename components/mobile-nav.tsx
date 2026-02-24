@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { Menu, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -8,7 +9,6 @@ import {
   SheetContent,
   SheetHeader,
   SheetTitle,
-  SheetClose,
 } from "@/components/ui/sheet";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import type { Locale } from "@/lib/i18n";
@@ -19,10 +19,9 @@ interface MobileNavProps {
     languageSwitcher: Record<string, string>;
   };
   lang: Locale;
-  onOpenForm: () => void;
 }
 
-export function MobileNav({ dict, lang, onOpenForm }: MobileNavProps) {
+export function MobileNav({ dict, lang }: MobileNavProps) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -47,14 +46,8 @@ export function MobileNav({ dict, lang, onOpenForm }: MobileNavProps) {
             <Phone className="size-4" />
             {dict.header.phone}
           </a>
-          <Button
-            onClick={() => {
-              setOpen(false);
-              setTimeout(onOpenForm, 200);
-            }}
-            className="w-full"
-          >
-            {dict.header.cta}
+          <Button asChild className="w-full" onClick={() => setOpen(false)}>
+            <Link href={`/${lang}/contact`}>{dict.header.cta}</Link>
           </Button>
           <div className="pt-2">
             <LanguageSwitcher lang={lang} dict={dict.languageSwitcher} />

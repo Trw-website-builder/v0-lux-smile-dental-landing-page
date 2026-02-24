@@ -1,6 +1,3 @@
-"use client";
-
-import { useState } from "react";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { SocialProof } from "@/components/social-proof";
@@ -10,7 +7,6 @@ import { Testimonials } from "@/components/testimonials";
 import { Faq } from "@/components/faq";
 import { CtaBanner } from "@/components/cta-banner";
 import { Footer } from "@/components/footer";
-import { AppointmentDialog } from "@/components/appointment-dialog";
 import type { Locale } from "@/lib/i18n";
 
 interface LandingPageProps {
@@ -20,27 +16,19 @@ interface LandingPageProps {
 }
 
 export function LandingPage({ dict, lang }: LandingPageProps) {
-  const [formOpen, setFormOpen] = useState(false);
-
   return (
     <>
-      <Header dict={dict} lang={lang} onOpenForm={() => setFormOpen(true)} />
+      <Header dict={dict} lang={lang} />
       <main>
-        <Hero dict={dict} onOpenForm={() => setFormOpen(true)} />
+        <Hero dict={dict} lang={lang} />
         <SocialProof dict={dict} />
         <Features dict={dict} />
         <Services dict={dict} />
         <Testimonials dict={dict} />
         <Faq dict={dict} />
-        <CtaBanner dict={dict} />
+        <CtaBanner dict={dict} lang={lang} />
       </main>
       <Footer dict={dict} />
-      <AppointmentDialog
-        open={formOpen}
-        onOpenChange={setFormOpen}
-        dict={dict}
-        lang={lang}
-      />
     </>
   );
 }

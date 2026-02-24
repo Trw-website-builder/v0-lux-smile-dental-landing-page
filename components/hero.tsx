@@ -1,5 +1,7 @@
+import Link from "next/link";
 import { Phone, CalendarDays } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import type { Locale } from "@/lib/i18n";
 
 interface HeroProps {
   dict: {
@@ -10,10 +12,10 @@ interface HeroProps {
       callback: string;
     };
   };
-  onOpenForm: () => void;
+  lang: Locale;
 }
 
-export function Hero({ dict, onOpenForm }: HeroProps) {
+export function Hero({ dict, lang }: HeroProps) {
   return (
     <section className="relative overflow-hidden">
       {/* Background image with overlay */}
@@ -43,13 +45,15 @@ export function Hero({ dict, onOpenForm }: HeroProps) {
             </a>
           </Button>
           <Button
+            asChild
             variant="outline"
             size="lg"
-            onClick={onOpenForm}
             className="border-white bg-white/10 px-8 py-6 text-base text-white backdrop-blur-sm hover:bg-white/20 hover:text-white"
           >
-            <CalendarDays className="size-5" />
-            {dict.hero.callback}
+            <Link href={`/${lang}/contact`}>
+              <CalendarDays className="size-5" />
+              {dict.hero.callback}
+            </Link>
           </Button>
         </div>
       </div>

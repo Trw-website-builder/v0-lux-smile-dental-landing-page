@@ -137,6 +137,13 @@
       "messageMax": "Message cannot exceed 500 characters."
     }
   },
+  "contactPage": {
+    "heroTitle": "Contact Us",
+    "heroSubtitle": "Fill out the form below to request an appointment. We will get back to you within 3 business days.",
+    "ctaTitle": "Prefer to call?",
+    "ctaDescription": "Our reception team is available Monday to Friday, 8:00 AM to 6:00 PM.",
+    "ctaButton": "Call Now: +352 12 34 56"
+  },
   "languageSwitcher": {
     "fr": "Francais",
     "en": "English",

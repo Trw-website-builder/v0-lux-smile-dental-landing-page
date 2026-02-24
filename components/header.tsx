@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Phone, Smile, Menu } from "lucide-react";
+import { Phone, Smile } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { MobileNav } from "@/components/mobile-nav";
@@ -14,10 +14,9 @@ interface HeaderProps {
     languageSwitcher: Record<string, string>;
   };
   lang: Locale;
-  onOpenForm: () => void;
 }
 
-export function Header({ dict, lang, onOpenForm }: HeaderProps) {
+export function Header({ dict, lang }: HeaderProps) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -53,19 +52,15 @@ export function Header({ dict, lang, onOpenForm }: HeaderProps) {
             <Phone className="size-4" />
             {dict.header.phone}
           </a>
-          <Button onClick={onOpenForm} size="lg">
-            {dict.header.cta}
+          <Button asChild size="lg">
+            <Link href={`/${lang}/contact`}>{dict.header.cta}</Link>
           </Button>
           <LanguageSwitcher lang={lang} dict={dict.languageSwitcher} />
         </div>
 
         {/* Mobile Nav */}
         <div className="lg:hidden">
-          <MobileNav
-            dict={dict}
-            lang={lang}
-            onOpenForm={onOpenForm}
-          />
+          <MobileNav dict={dict} lang={lang} />
         </div>
       </div>
     </header>

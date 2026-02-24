@@ -137,6 +137,13 @@
       "messageMax": "Die Nachricht darf 500 Zeichen nicht uberschreiten."
     }
   },
+  "contactPage": {
+    "heroTitle": "Kontaktieren Sie uns",
+    "heroSubtitle": "Fullen Sie das Formular aus, um einen Termin anzufordern. Wir melden uns innerhalb von 3 Werktagen bei Ihnen.",
+    "ctaTitle": "Lieber anrufen?",
+    "ctaDescription": "Unser Empfangsteam ist Montag bis Freitag von 8:00 bis 18:00 Uhr erreichbar.",
+    "ctaButton": "Jetzt anrufen: +352 12 34 56"
+  },
   "languageSwitcher": {
     "fr": "Francais",
     "en": "English",
